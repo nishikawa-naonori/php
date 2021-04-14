@@ -1,0 +1,8 @@
+<?php echo "Good morning"."\n";?>
+<?php echo "Good afternoon"."\n";?>
+<?php echo "Good evening"."\n";?>
+<?php $value = 123;
+echo "$value" ;?>
+
+
+
