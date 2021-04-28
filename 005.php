@@ -1,30 +1,31 @@
 <?php
 //加算
-$wk_val_1 = 10;
-$wk_val_2 = 5;
-$val = $wk_val_1 + $wk_val_2;
-echo "$val\n";
+$w001 = 10;
+$w002 = 5;
+$w003 = $w001 + $w002;
+echo "$w003\n";
  
 //減算
-$wk_val_1 = 10;
-$wk_val_2 = 3;
-$val = $wk_val_1 - $wk_val_2;
-echo "$val\n";
- 
+$w001 = 10;
+$w002 = 3;
+$w003 = $w001 - $w002;
+echo "$w003\n";
+
 //乗算
-$wk_val_1 = 10;
-$wk_val_2 = 2;
-$val = $wk_val_1 * $wk_val_2;
-echo "$val\n";
- 
+$w001 = 10;
+$w002 = 2;
+$w003 = $w001 * $w001;
+echo "$w003\n";
+
 //除算
-$wk_val_1 = 10;
-$wk_val_2 = 3;
-$val = $wk_val_1 / $wk_val_2;
-echo "$val\n";
- 
+$w001 = 10;
+$w002 = 3;
+$w003 = $w001 / $w002;
+echo "$w003\n";
+
 //あまり算
-$wk_val_1 = 10;
-$wk_val_2 = 3;
-$val = $wk_val_1 % $wk_val_2;
-echo "$val\n";
+$w001 = 10;
+$w002 = 3;
+$w003 = $w001 % $w002;
+echo "$w003\n";
+?>

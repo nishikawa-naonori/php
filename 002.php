@@ -1,12 +1,8 @@
-<?php $sum = 8 + 9;
-    echo $sum;
-    print "\n";
+<?php
+    $name = trim(fgets(STDIN));
+    echo "Hello " . $name . "\n";
 
-    
-$i = 1;
- 
-do{ 
-    print $i;
-    print "\n";
-    $i++;
-}while($i <= 5);
+    $number = trim(fgets(STDIN));
+    echo $number * 10 . "\n";
+    echo "おこずかい:" . ($number * 10) . "円". "\n";
+?>
